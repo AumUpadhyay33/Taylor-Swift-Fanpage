@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url(//db.onlinewebfonts.com/c/87b1cb18d8d94adeb682417403179d31?family=Charlotte);
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	width: 100%;
+}
+.nav ul {
+	margin: 6;
+	font-size: 1.2em;
+}
+.nav li {
+	display: inline;
+}
+.nav a {
+	display: inline-block;
+	padding: .5em;
+	color: black;
+	text-decoration: none;
+}
+.nav {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: lighter;
+	border-bottom: 1px solid rgb(0, 0, 0, 1);
+}
+.nav li {
+	padding: 0 10%;
+}
+.nav a:hover {
+	background-color: rgb(0, 0, 0, 0.2);
+}
+.main-header {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-color: rgb(255, 255, 255, .6);
+	background-blend-mode: multiply;
+	padding-bottom: 30px;
+}
+.name-large {
+	text-align: center;
+	margin: 0;
+	font-size: 7em;
+	font-family: "Sacramento";
+}
+.content-section {
+	margin: 1em;
+	color: #333;
+	font-size: 1.1em;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+
+.section-header {
+	font-size: 2em;
+	text-align: center;
+	color: #333;
+}
+.about-image {
+	float: left;
+	height: 250px;
+	width: 300px;
+	margin: 5px 10px;
+	border-radius: 6%;
+}
+
+.main-footer {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-color: rgb(255, 255, 255, .6);
+	background-blend-mode: multiply;
+	padding: 0em 0;
+	border-bottom: none;
+}
+.main-footer-container {
+	display: flex;
+	align-item: center;
+}
+.main-footer-container ul {
+	flex-grow: 1;
+	text-align: end;
+}
+.footer-nav li {
+	padding: 0 .5em;
+}
+.footer-nav img {
+	height: 60px;
+	width: 60px;
+}
+
+
+
+.btn {
+	text-align: center;
+	vertical-align: middle;
+	padding: 0.2em;
+	cursor: pointer;
+	
+}
+.btn-header {
+	margin: 0.5em 0% 0em 37%;
+	color: black;
+	border: 1.5px solid black;
+	background-color: rgba(255, 255, 255, .1);
+	border-radius: 0;
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+.btn-header:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.btn-play {
+	margin: 0.5em 10% 0em 0.5%;
+	font-size: 2em;
+	border-radius: 50%;
+	padding: 0;
+	width: 60px;
+	height: 45px;
+}
+
+.tour-row {
+	border-bottom: 1px solid black;
+	padding-bottom: 1em;
+	margin: 1em;
+}
+.tour-row:last-child {
+	border-bottom: none;
+}
+.tour-item {
+	padding-right: 0.5em;
+	display: inline-block;
+}
+.tour-date {
+	color: #000;
+	font-weight: bold;
+	width: 15%;
+}
+.tour-city {
+	width: 30%;
+}
+.tour-arena {
+	width: 39%;
+}
+.tour-btn {
+	max-width: 12%;
+}
+.btn-primary {
+	color: white;
+	background-color: #56CCF2;
+	border: none;
+	border-radius: .3em;
+	font-weight: bold;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+	font-size: 0.9em;
+}
+.btn-primary:hover {
+	background-color: #2D9CDB;
+}
+.name {
+	text-align: center;
+	margin: 0;
+	font-size: 4em;
+	font-family: "Sacramento";
+	padding: none;
+}
+
+.shop-item {
+	margin: 30px;	
+}
+.shop-item-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #333;
+	margin-bottom: 10px;
+}
+.shop-item-image {
+	height: 250px;
+}
+.shop-item-details {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+.shop-item-price {
+	flex-grow: 1;
+	color: #222;
+}
+.shop-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
